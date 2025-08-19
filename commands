@@ -1,0 +1,44 @@
+pipeline-визуализированная последовательность этапов, через которые проходит проект или сделка от начальной стадии до завершения.
+cd ../..=root dir
+ctrl+u=delete
+ctrl+w=delete last word
+ls -la=ls -l -a
+mkdir a\ b
+rwx=421
+cp копируемое куда
+mv имя_изм на_что
+echo "a">file restart
+echo "b">>file append()
+man=manual
+info
+chmod 777 file.txt
+chown [опции] владелец[:группа] файл(ы)
+sudo chown alice file.txt
+find .
+grep "error" file.txt
+grep -n "error" file.txt
+cat file.txt
+curl
+wget
+ssh 
+tar -cvf archive.tar file.txt create archive
+tar -xvf archive.tar
+tar -tvf archive.tar
+tar -czvf archive.tar.gz file.txt create archive
+history and !228 run minecraft
+wc
+lol
+line,word,symbol -> 0 1 3 if you press enter 3 -> 4
+wc -l file.txt count line
+wc -w word
+wc -c byte = symbol
+wc -m symbol
+wc -L big line in symbol
+ps aux | wc -l count process
+cat << EOF
+wc -w <<< "Hello boy"
+cat>file.txt<<EOF
+python error.py 2> error.txt
+wc -w<<< "Hello boy" 2
+
+

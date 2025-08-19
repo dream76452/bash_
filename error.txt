@@ -1,0 +1,20 @@
+коды состояния HTTP
+1xx information message 
+2xx sucesssfull(example, 200 OK)
+3xx redirect
+4xx mistake on side client
+5xx mistake on side server
+mistake 4xx - client mistake
+400 bad request 
+401 unauthorized
+403 forbidden - access close if dont have right 
+404 not found
+405 method not allowed
+408 request timeout
+429 too many requests
+mistake 5xx - server mistakes
+500 interval server error - bug in code
+502 bad gateway - server get bad answer from another server (example, Nginx <--> PHP-FPM)
+503 service unavailble server rebooted or on technical service
+504 gateway timeout server dont answer on time 
+505 HTTP version not supported - version HTTP dont supported
